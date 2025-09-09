@@ -1,0 +1,15 @@
+# To update the version of cipd in this repository, update the
+# instance or tag below for each platform, then run:
+#
+# $ cipd export -root . -ensure-file siso.ensure
+
+$ResolvedVersions siso.versions
+
+@subdir linux-x86
+build/siso/linux-amd64 git_revision:3c661d68d37ff5835c3237ca05e73239e3aa38a9
+
+@subdir linux-arm64
+build/siso/linux-arm64 git_revision:3c661d68d37ff5835c3237ca05e73239e3aa38a9
+
+@subdir darwin-x86
+build/siso/mac-amd64 git_revision:3c661d68d37ff5835c3237ca05e73239e3aa38a9
