@@ -10,9 +10,9 @@ fi
 
 version=${1:-latest}
 # Turn the argument given into a git revision.
-hash=$(cipd describe build/siso/linux-amd64 -version ${version} | sed -n '/^  git_revision:/s/.*revision://p')
+hash=$(cipd describe build/siso/linux-amd64 -version ${version} | sed -n '/^  git_revision:/{s/.*revision://p;q}')
 if [[ -z "${hash}" ]]; then
-  hash=$(cipd describe build/siso/linux-amd64 -version git_revision:${version} | sed -n '/^  git_revision:/s/.*revision://p')
+  hash=$(cipd describe build/siso/linux-amd64 -version git_revision:${version} | sed -n '/^  git_revision:/{s/.*revision://p;q}')
 fi
 if [[ -z "${hash}" ]]; then
   echo "Could not find revision '${version}'" >& 2
