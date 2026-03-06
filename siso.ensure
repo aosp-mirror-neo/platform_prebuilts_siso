@@ -6,10 +6,10 @@
 $ResolvedVersions siso.versions
 
 @subdir linux-x86
-build/siso/linux-amd64 git_revision:a4a219a47e8a8d1a4a2fe306ffa70d65ab4b23b8
+build/siso/linux-amd64 git_revision:bea0f245b6973702ddcb457090706d03145855f8
 
 @subdir linux-arm64
-build/siso/linux-arm64 git_revision:a4a219a47e8a8d1a4a2fe306ffa70d65ab4b23b8
+build/siso/linux-arm64 git_revision:bea0f245b6973702ddcb457090706d03145855f8
 
 @subdir darwin-x86
-build/siso/mac-amd64 git_revision:a4a219a47e8a8d1a4a2fe306ffa70d65ab4b23b8
+build/siso/mac-amd64 git_revision:bea0f245b6973702ddcb457090706d03145855f8

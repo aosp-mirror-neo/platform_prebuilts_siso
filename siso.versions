@@ -2,13 +2,13 @@
 # Do not modify manually. All changes will be overwritten.
 
 build/siso/linux-amd64
-	git_revision:a4a219a47e8a8d1a4a2fe306ffa70d65ab4b23b8
-	xO6eT60l_pnbNbT2P98op3-FeXnY5Y6z7qjRh6Rv2LoC
+	git_revision:bea0f245b6973702ddcb457090706d03145855f8
+	q4Aga2f_UqenWdZgWK05LhT2bir46bM6ZIO_yOpWmaIC
 
 build/siso/linux-arm64
-	git_revision:a4a219a47e8a8d1a4a2fe306ffa70d65ab4b23b8
-	BYRm4nHPZzlAwrv15Z8y4HYcVbeYwsCNLJA_z4OY8QoC
+	git_revision:bea0f245b6973702ddcb457090706d03145855f8
+	xMLWqb7xGuEbstmL0CeVRUH4ATZi-6WD9ehLaIWjWLsC
 
 build/siso/mac-amd64
-	git_revision:a4a219a47e8a8d1a4a2fe306ffa70d65ab4b23b8
-	sS66RFsT261gSxIvtO3CdrE8CYdrE4kMDQnYMU_cFS4C
+	git_revision:bea0f245b6973702ddcb457090706d03145855f8
+	XXbl39GrYxzw1Zr6OrnDw0uAS1O-QhCymSw9j-dHLlQC
